@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#f6552d] to-[#bb8476] bg-clip-text leading-right text-transparent">
           Hi, I'm Sara CCM
         </h1>
-        <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+        <p className="text-white text-lg mb-8 max-w-lg mx-auto">
           I'm a web developer specialized in building responsive, user-friendly websites and creating innovative solutions that make an impact.
         </p>
         <div className="flex justify-center space-x-4">

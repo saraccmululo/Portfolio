@@ -14,7 +14,7 @@ const About = () => {
           About Me
         </h2>
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-          <p className="text-gray-300 mb-2">
+          <p className="text-gray-300 mb-2 text-lg text-center">
             Passionate developer leveraging a background in psychology,
             marketing and UX design alongside expertise in crafting responsive,
             accessible web experiences.
