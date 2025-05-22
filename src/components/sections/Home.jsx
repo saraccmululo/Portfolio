@@ -1,9 +1,12 @@
+import RevealOnScroll from "../RevealOnScroll";
+
 const Home = () => {
   return (
     <section
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      <RevealOnScroll>
       <div className="text-center z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#f6552d] to-[#bb8476] bg-clip-text leading-right text-transparent">
           Hi, I'm Sara CCM
@@ -26,6 +29,7 @@ const Home = () => {
           </a>
         </div>
       </div>
+      </RevealOnScroll>
     </section>
   );
 };
