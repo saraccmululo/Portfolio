@@ -19,7 +19,7 @@ const Projects = () => {
               collections.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "CSS3", "Firebase (Auth & Firestore)"].map(
+              {["React", "CSS", "Firebase (Auth & Firestore)"].map(
                 (item, key) => (
                   <span
                     key={key}
@@ -76,7 +76,7 @@ const Projects = () => {
               platform."
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Express(Node.js)"].map((item, key) => (
+              {["React", "CSS", "Express(Node.js)"].map((item, key) => (
                 <span
                   key={key}
                   className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
@@ -87,7 +87,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Game-Manager-App"
+                href="https://game-manager-app-vite.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -103,7 +103,7 @@ const Projects = () => {
               Quiz web app with score and restart functionalities.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Express(Node.js)"].map((item, key) => (
+              {["React", "CSS"].map((item, key) => (
                 <span
                   key={key}
                   className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
@@ -125,12 +125,12 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Blog Post Website</h3>
+            <h3 className="text-xl font-bold mb-2">Project Manager App</h3>
             <p className="text-gray-400 mb-4">
-              Blog web page to create, edit, and delete posts.
+              Project manager to help users track, edit, and delete tasks.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "CSS"].map((item, key) => (
+              {["React", "Tailwind CSS"].map((item, key) => (
                 <span
                   key={key}
                   className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
@@ -141,7 +141,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Blog-React-App"
+                href="https://saraccmululo.github.io/Project-Management-Webpage/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -168,7 +168,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Food-Order-App"
+                href="https://food-order-app-gtqx.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
