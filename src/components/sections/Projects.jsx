@@ -37,7 +37,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
               >
-                View Project →{" "}
+                View Project →
               </a>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Chat-Messaging-App"
+                href="chat-messaging-app-kappa.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -114,7 +114,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Quiz-App"
+                href="https://saraccmululo.github.io/Quiz-App/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
