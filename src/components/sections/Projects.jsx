@@ -59,12 +59,12 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="chat-messaging-app-kappa.vercel.app"
+                href="https://chat-messaging-app-kappa.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
               >
-                View Project →{" "}
+                View Project →
               </a>
             </div>
           </div>
