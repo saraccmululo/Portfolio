@@ -59,7 +59,10 @@ const About = () => {
                 <strong>React.js Course</strong>-ComIT organization (2025)
               </li>
               <li>
-                <strong>UX Design Course</strong>-Google (2025)
+                <strong>Ultimate ReactJS Course</strong>-PedroTech organization (2025)
+              </li>
+              <li>
+                <strong>UX Design Course</strong>-Google (Present-2025)
               </li>
               <li>
                 <strong>Digital Marketing</strong>-University of Winnipeg
