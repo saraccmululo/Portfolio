@@ -1,6 +1,6 @@
 import RevealOnScroll from "../RevealOnScroll";
 import emailjs from "emailjs-com";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 
 const Contact = () => {
@@ -10,23 +10,37 @@ const Contact = () => {
     formState: { errors },
     reset,
   } = useForm();
-  
+
   const formRef = useRef(null);
+  const [isLoading, setIsLoading]= useState(false);
+  const [feedbackMessage, setFeedbackMessage] = useState("");
 
   const onSubmit = async (data) => {
     try {
+      setIsLoading(true);
+      setFeedbackMessage("");
        await emailjs.sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         formRef.current,
-        import.meta.env.VITE_PUBLIC_Key
+        import.meta.env.VITE_PUBLIC_KEY
       );
-      alert("Message Sent!");
+      console.log(
+  import.meta.env.VITE_SERVICE_ID,
+  import.meta.env.VITE_TEMPLATE_ID,
+  import.meta.env.VITE_PUBLIC_KEY
+);
+      setFeedbackMessage ("Message Sent!");
       reset();
     } catch (error) {
-      alert("Oops! Something went wrong. Please try again.");
+      console.error("EmailJS error:", error);
+      setFeedbackMessage("Oops! Something went wrong. Please try again.");
+    } finally {
+      setIsLoading(false);
     }
   };
+
+  if (isLoading) return <p>Sending message...</p>
 
   return (
     <section
@@ -101,9 +115,11 @@ const Contact = () => {
             <button
               type="submit"
               className="w-full bg-[#915c4f] text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]"
+              disabled={isLoading}
             >
-              Send Message
+              {isLoading? "Sending...":"Send Message"}
             </button>
+            {feedbackMessage&&<p className={`text-center ${feedbackMessage.startsWith("M")? "text-[#b6543b]": "text-red-500"}`}>{feedbackMessage}</p>}
           </form>
         </div>
       </RevealOnScroll>
