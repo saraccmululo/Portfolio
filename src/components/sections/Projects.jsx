@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://github.com/saraccmululo/Plant-Pal-Web-App/"
+                href="https://saraccmululo.github.io/Plant-Pal-Web-App/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
