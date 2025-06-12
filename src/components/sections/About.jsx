@@ -59,7 +59,7 @@ const About = () => {
                 <strong>React.js/Next.js Course</strong> - Academind (2025-Present)
               </li>
                <li>
-                <strong>UX Design Course</strong> - Google (2025-Present)
+                <strong>UX Design Certificate</strong> - Google (2025-Present)
               </li>
               <li>
                 <strong>Ultimate ReactJS Course</strong> - PedroTech organization (2025)
@@ -72,8 +72,7 @@ const About = () => {
                 (2022-2024)
               </li>
               <li>
-                <strong>Master's degree in Psychology</strong>-Federal
-                University of Rio de Janeiro (2009-2011)
+                <strong>JavaScript Essentials 1</strong> - Cisco Networking Academy (2024)
               </li>
             </ul>
           </div>
