@@ -56,19 +56,19 @@ const About = () => {
             <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
                <li>
-                <strong>React.js and Next.js Course</strong>-Academind (Present-2025)
+                <strong>React.js/Next.js Course</strong> - Academind (2025-Present)
+              </li>
+               <li>
+                <strong>UX Design Course</strong> - Google (2025-Present)
               </li>
               <li>
-                <strong>React.js Course</strong>-ComIT organization (2025)
+                <strong>Ultimate ReactJS Course</strong> - PedroTech organization (2025)
               </li>
               <li>
-                <strong>Ultimate ReactJS Course</strong>-PedroTech organization (2025)
+                <strong>React.js Course</strong> - ComIT organization (2025)
               </li>
               <li>
-                <strong>UX Design Course</strong>-Google (Present-2025)
-              </li>
-              <li>
-                <strong>Digital Marketing</strong>-University of Winnipeg
+                <strong>Digital Marketing</strong> - University of Winnipeg
                 (2022-2024)
               </li>
               <li>
