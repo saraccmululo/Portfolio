@@ -55,6 +55,9 @@ const About = () => {
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transtion-all">
             <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
+               <li>
+                <strong>React.js and Next.js Course</strong>-Academind (Present-2025)
+              </li>
               <li>
                 <strong>React.js Course</strong>-ComIT organization (2025)
               </li>
