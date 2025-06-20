@@ -37,14 +37,14 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={GitHub} alt="GitHub logo" className="w-16 h-16 rounded-full transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]" />
+              <img src={GitHub} alt="GitHub logo" className="w-14 h-14 rounded-full transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]" />
             </a>
             <a
               href="https://www.linkedin.com/in/sara-costa-cabral-mululo-b72905254/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={LinkedIn} alt="LinkedIn Logo" className="w-16 h-16 rounded-full transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]" />
+              <img src={LinkedIn} alt="LinkedIn Logo" className="w-14 h-14 rounded-full transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]" />
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Plant Pals Website</h3>
+            <h3 className="text-xl font-bold mb-2">Plant Pals Web-App</h3>
             <p className="text-gray-400 mb-4">
               Plant care web app to help gardeners manage their plant
               collections.
@@ -43,9 +43,9 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Chat Messaging App</h3>
+            <h3 className="text-xl font-bold mb-2">Chat Messaging Web-App</h3>
             <p className="text-gray-400 mb-4">
-              Real-time chat message web app.
+              Real-time chat message web app (built while following a course tutorial).
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "TypeScript", "Supabase"].map((item, key) => (
@@ -70,10 +70,10 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Game Manager Website</h3>
+            <h3 className="text-xl font-bold mb-2">Game Collection Web-App</h3>
             <p className="text-gray-400 mb-4">
-              A web app to manage game collection by title, genre, and
-              platform."
+              Game manager app to organize game collection by title, genre, and
+              platform (built while following a course tutorial).
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "CSS", "Express(Node.js)"].map((item, key) => (
@@ -100,7 +100,7 @@ const Projects = () => {
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Quiz App</h3>
             <p className="text-gray-400 mb-4">
-              Quiz web app with score and restart functionalities.
+              Quiz web app with score and restart functionalities (built while following a course tutorial).
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "CSS"].map((item, key) => (
@@ -127,7 +127,7 @@ const Projects = () => {
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Project Manager App</h3>
             <p className="text-gray-400 mb-4">
-              Project manager to help users track, edit, and delete tasks.
+              Project manager to help users track, edit, and delete tasks (built while following a course tutorial).
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "Tailwind CSS"].map((item, key) => (
@@ -154,7 +154,7 @@ const Projects = () => {
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Food Order App</h3>
             <p className="text-gray-400 mb-4">
-              Food web app with checkout functionality.
+              Food web app with checkout functionality (built while following a course tutorial).
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "CSS"].map((item, key) => (
