@@ -12,7 +12,7 @@ const LoadingScreen = ({onComplete}) => {
 
       if(index>fullText.length) {
         clearInterval(interval);
-        setTimeout(()=>onComplete(),1500);
+        setTimeout(()=>onComplete(),1200);
       }
     }, 100);
     return()=> clearInterval(interval);
