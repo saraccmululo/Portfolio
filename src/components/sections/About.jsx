@@ -1,8 +1,8 @@
 import RevealOnScroll from "../RevealOnScroll";
 
 const About = () => {
-  const frontendSkills = ["JavaScript", "React", "HTML", "CSS", "TailwindCSS"];
-  const backendSkills = ["Firebase", "Supabase"];
+  const frontendSkills = ["JavaScript", "React", "HTML", "CSS", "TailwindCSS", "Bootstrap"];
+  const backendSkills = ["Python/Flask", "Firebase", "SQL/SQLite"];
   return (
     <section
       id="about"
@@ -15,8 +15,8 @@ const About = () => {
         </h2>
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-2 text-lg text-center">
-            Passionate web developer leveraging a background in psychology,
-            marketing and UX design alongside expertise in crafting responsive,
+            Passionate web developer leveraging a background in psychology and digital
+            marketing with expertise in crafting responsive,
             accessible web experiences.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -55,24 +55,30 @@ const About = () => {
           <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transtion-all">
             <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
-               <li>
-                <strong>React.js/Next.js Course</strong> - Academind (2025-Present)
-              </li>
-               <li>
-                <strong>UX Design Certificate</strong> - Google (2025-Present)
+              <li>
+                <strong>CS50 Python Programming</strong> - Harvard University (2025-Present)
               </li>
               <li>
-                <strong>Ultimate ReactJS Course</strong> - PedroTech organization (2025)
+                <strong>CS50 Computer Science Introduction</strong> - Harvard University (2025)
+              </li>
+              <li>
+                <strong>Algorithms and Data Structure</strong> - Colt Steele (2025)
+              </li>
+              <li>
+                <strong>TypeScript in React</strong> - Academind (2025)
+              </li>  
+              <li>
+                <strong>React.js/Next.js Course</strong> - Academind (2025)
               </li>
               <li>
                 <strong>React.js Course</strong> - ComIT organization (2025)
               </li>
               <li>
+                <strong>JavaScript Essentials 1</strong> - Cisco Networking Academy (2024)
+              </li> 
+              <li>
                 <strong>Digital Marketing</strong> - University of Winnipeg
                 (2022-2024)
-              </li>
-              <li>
-                <strong>JavaScript Essentials 1</strong> - Cisco Networking Academy (2024)
               </li>
             </ul>
           </div>

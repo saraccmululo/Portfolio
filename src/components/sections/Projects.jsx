@@ -13,7 +13,35 @@ const Projects = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Plant Pals Web-App</h3>
+            <h3 className="text-xl font-bold mb-2">PlanAhead App</h3>
+            <p className="text-gray-400 mb-4">
+              Digital calendar where authenticated users can add, delete and track their tasks by month or by week.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["React", "Flask", "SQLite", "Bootstrap"].map(
+                (item, key) => (
+                  <span
+                    key={key}
+                    className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
+                  >
+                    {item}
+                  </span>
+                )
+              )}
+            </div>
+            <div className="flex justify-between items-center">
+              <a
+                href="https://planahead-daa2.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+            <h3 className="text-xl font-bold mb-2">Plant Pals Web App</h3>
             <p className="text-gray-400 mb-4">
               Plant care web app to help gardeners manage their plant
               collections.
@@ -43,7 +71,7 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Chat Messaging Web-App</h3>
+            <h3 className="text-xl font-bold mb-2">Chat Messaging Web App</h3>
             <p className="text-gray-400 mb-4">
               Real-time chat message web app (built while following a course tutorial).
             </p>
@@ -70,7 +98,7 @@ const Projects = () => {
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-            <h3 className="text-xl font-bold mb-2">Game Collection Web-App</h3>
+            <h3 className="text-xl font-bold mb-2">Game Collection Web App</h3>
             <p className="text-gray-400 mb-4">
               Game manager app to organize game collection by title, genre, and
               platform (built while following a course tutorial).
