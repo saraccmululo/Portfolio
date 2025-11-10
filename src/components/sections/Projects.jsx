@@ -40,6 +40,34 @@ const Projects = () => {
               </a>
             </div>
           </div>
+  
+          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+            <h3 className="text-xl font-bold mb-2">CSV to Database Importer</h3>
+            <p className="text-gray-400 mb-4">
+              Python app to import CSV files into SQLite database while cleaning and validating data.
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["Python", "SQLite"].map((item, key) => (
+                <span
+                  key={key}
+                  className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+            <div className="flex justify-between items-center">
+              <a
+                href="https://github.com/saraccmululo/CSV_to_Database_Importer"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
+              >
+                View Project →{" "}
+              </a>
+            </div>
+          </div>
+
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Plant Pals Web App</h3>
             <p className="text-gray-400 mb-4">
@@ -124,7 +152,8 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
+          
+          {/*  
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Quiz App</h3>
             <p className="text-gray-400 mb-4">
@@ -151,6 +180,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
+        */}
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
             <h3 className="text-xl font-bold mb-2">Project Manager App</h3>
@@ -178,8 +208,9 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
+          {/* 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+           
             <h3 className="text-xl font-bold mb-2">Food Order App</h3>
             <p className="text-gray-400 mb-4">
               Food web app with checkout functionality (built while following a course tutorial).
@@ -204,7 +235,9 @@ const Projects = () => {
                 View Project →{" "}
               </a>
             </div>
+           
           </div>
+          */}
         </div>
       </div>
       </RevealOnScroll>

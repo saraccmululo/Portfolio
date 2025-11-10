@@ -15,7 +15,7 @@ const About = () => {
         </h2>
         <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
           <p className="text-gray-300 mb-2 text-lg text-center">
-            Passionate web developer leveraging a background in psychology and digital
+            Passionate software developer leveraging a background in psychology and digital
             marketing with expertise in crafting responsive,
             accessible web experiences.
           </p>
@@ -56,6 +56,8 @@ const About = () => {
             <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
+                <strong>CS50 Database with SQL Introduction</strong> - Harvard University (2025)
+              </li><li>
                 <strong>CS50 Python Programming</strong> - Harvard University (2025-Present)
               </li>
               <li>
