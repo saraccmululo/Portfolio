@@ -40,7 +40,7 @@ const Home = () => {
               <img src={GitHub} alt="GitHub logo" className="w-14 h-14 rounded-full transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(145,92,79,0.4)]" />
             </a>
             <a
-              href="https://www.linkedin.com/in/sara-costa-cabral-mululo-b72905254/"
+              href="https://github.com/saraccmululo"
               target="_blank"
               rel="noopener noreferrer"
             >
