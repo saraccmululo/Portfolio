@@ -33,7 +33,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://github.com/saraccmululo/social-network-app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -63,7 +63,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://github.com/saraccmululo/auction_platform_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -93,7 +93,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://github.com/saraccmululo/email-client-app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -153,7 +153,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="https://saraccmululo.github.io/Plant-Pal-Web-App/"
+                href="https://saraccmululo.github.io/plant-pals-web-app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
@@ -181,7 +181,7 @@ const Projects = () => {
             </div>
             <div className="flex justify-between items-center">
               <a
-                href="#"
+                href="https://github.com/saraccmululo/encyclopedia-web-app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
