@@ -14,9 +14,10 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
             <img
               src={logo}
               alt="SCCM Logo"
-              className="h-22 w-auto object-contain"
+              className="h-24 w-auto object-contain"
             />
           </a>
+           <span>Software Solutions</span>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
